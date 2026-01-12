@@ -150,7 +150,7 @@ fnnas-sync
 sudo apt-get update -y
 sudo apt-get full-upgrade -y
 # For Ubuntu-24.04
-sudo apt-get install -y $(cat make-fnnas/script/ubuntu2404-make-fnnas-depends)
+sudo apt-get install -y $(cat make-fnnas/scripts/ubuntu2404-make-fnnas-depends)
 ```
 
 1. Enter the `~/fnnas` root directory, create a folder named `fnnas-arm64` in the root directory, and upload the FnNAS image file (e.g., `fnos_arm_1.0.0_258.img`) to the `~/fnnas/fnnas-arm64` directory.

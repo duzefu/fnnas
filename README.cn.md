@@ -148,7 +148,7 @@ fnnas-sync
 sudo apt-get update -y
 sudo apt-get full-upgrade -y
 # For Ubuntu-24.04
-sudo apt-get install -y $(cat make-fnnas/script/ubuntu2404-make-fnnas-depends)
+sudo apt-get install -y $(cat make-fnnas/scripts/ubuntu2404-make-fnnas-depends)
 ```
 
 3. 进入 `~/fnnas` 根目录，在根目录下创建文件夹 `fnnas-arm64` ，并上传 FnNAS 镜像文件 ( 如：`fnos_arm_1.0.0_258.img` ) 到 `~/fnnas/fnnas-arm64` 目录里。
